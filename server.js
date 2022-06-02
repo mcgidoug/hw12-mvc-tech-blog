@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 const hbs = handlebars.create({ helpers });
 
 const sess = {
-  secret: "Super secret secret",
+  secret: "secret",
   cookie: {},
   resave: false,
   saveUninitialized: true,
